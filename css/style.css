@@ -42,6 +42,10 @@
       font-weight: 700;
       font-size: 1.1em;
   }
+
+   input.icone:active , input.icone:focus {
+    color:#219CD1;
+   }
   
   .mt-40{
     margin-top:40px;
