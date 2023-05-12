@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Code Verification</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+    <div class="p-40">
+        <div class="flex flex-dir-column">
+          <div class="content-image flex">
+            <div class="flex">LOGO</div>
+          </div>
+          <h1>Confirme o seu cadastro</h1>
+          <h2 class="flex">Informe o código enviado por SMS para:</h2>
+          <div class="display-number">(00) 0000-0000</div>
+          <div class="nums flex mt-10">
+            <input class="form-control input-code" type="text" maxlength="1" autofocus />
+            <input class="form-control input-code" type="text" maxlength="1" />
+            <input class="form-control input-code" type="text" maxlength="1" />
+            <input class="form-control input-code" type="text" maxlength="1" />
+            <input class="form-control input-code" type="text" maxlength="1" />
+            <input class="form-control input-code" type="text" maxlength="1" />
+          </div>
+          <button class="mt-40" id="confirm-button" onclick="confirmaCodigo()" disabled >Confirmar código</button>
+          <div class="flex mt-10">
+            <span>Não recebeu o código?</span>
+            <a href="#">Reenviar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
